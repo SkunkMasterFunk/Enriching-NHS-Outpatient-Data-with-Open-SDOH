@@ -267,15 +267,8 @@ This code was consolidated from thirteen Jupyter notebooks. The reorganisation
 was mostly mechanical, but three substantive corrections were made, and they are
 recorded here rather than buried, since each changes results.
 
-The causal forest analysis was dropped, as it does not appear in the manuscript.
 PDF generation was likewise dropped in favour of terminal output, the point of
 this code being reproducibility rather than typesetting.
-
-**The postcode linkage step did not previously exist as code.** The old
-`data_linking` notebook patched the geography in from a file in `data/old/`, and
-`Postcode_Match_Check` only verified it after the fact. The `postcode-link` step
-now builds that linkage from the ONS directory directly, so stage 3 above is
-reproducible rather than inherited.
 
 **The interpreter variable was always missing.** The cleaning function contained
 a copy-paste error, testing `sex == "Y"` rather than `interpreter == "Y"`, so the
