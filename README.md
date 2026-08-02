@@ -1,4 +1,4 @@
-# Missed Outpatient Appointments (DNAs) at Cambridge University Hospitals
+# Beyond Deprivation Indices: Enriching NHS Outpatient Data with Open Social Determinants of Health to Predict Missed Appointments
 
 Analysis code for a study of missed outpatient appointments ("did not attend", or
 DNA) across specialties at Cambridge University Hospitals, linking hospital
